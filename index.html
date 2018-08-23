@@ -24,10 +24,13 @@
 
 <body>
     <!--
-        Here, I have a header which is going to stand at the top of the page. I need a way for the viewer to navigate between my home and services page, so I set up a nav list, and links in between to allow for.
+        Here, I have a header which is going to stand at the top of the page. I need a way for the viewer to navigate between my home and services page, so I set up a nav list, and links in between to allow for navigation between the two pages. This is the same in the Services page, allowing for easy access for the user.
      -->
     <header>
         <nav>
+            <!--
+                I actually had an issue here because the text was not showing up as the same font, the same style, and the same size that it was shown in the example. I had to add an unrodered list and layer list item tags inside the tags to allow it to render the correct way that it was supposed to.
+             -->
             <ul>
                 <li>
                     <a href="index.html">Home</a>
@@ -40,6 +43,9 @@
         </nav>
     </header>
     <aside>
+        <!-- 
+            The aside tag allows for the comments to be shown without disturbing the main text body. Adding the image at the top allows for formatting size of the aside tag to have the color coincide with the image's width. The text is shown in blockquotes to allow the paragraphs to be individualized as their own. The name of the author of the comment is put inside a cite tag to allow their name to have emphasis. The special character tag (&, and ending in a semicolon) allows for the mdash to be rendered on the browser without copy pasting the character into the text editor (And either way, not all websites would render it the exact way that it's written.)
+         -->
         <img src="jtc_comments.png" alt="Comment">
         <blockquote>
             <p>I hired Jedds to remove an old Sugar maple from a narrow yard. They did the job with no damage to my garage and
@@ -68,6 +74,9 @@
         </blockquote>
     </aside>
     <article>
+        <!-- 
+            The image is put inside the header tag to allow for the image to be displayed on the page. The text is then displayed inside a paragraph tag to allow it to be rendered on the page as having two separate paragraphs. The adress at the bottom shows that it is a place, or any information that would be important to have for contacting the writer of the website. The anchor tags referring to the email and the phone number are there to allow the reader ease of clicking on the number or email and being prompted with actions to proceed. mailto and the adress allows it to be promted to mail, and tel allows for calling at ease, as long as the international code is before the number, and the numbers have no spaces in between them.
+         -->
         <header>
             <img src="jtc_photo1.png" alt="Jedds Tree Care">
             <p>
